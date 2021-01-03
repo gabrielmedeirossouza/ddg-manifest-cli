@@ -1,14 +1,15 @@
 {
-  "name": "minifest-gen",
+  "name": "ddg-manifest-cli",
   "version": "1.0.0",
   "description": "manifest generator for packages type scorm",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "ddg-manifest-cli": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "DOT Digital Group",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@octokit/auth-basic": "^1.4.8",
     "@octokit/rest": "^18.0.12",
@@ -18,5 +19,13 @@
     "clui": "^0.3.6",
     "figlet": "^1.5.0",
     "inquirer": "^7.3.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielmedeirossouza/ddg-manifest-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielmedeirossouza/ddg-manifest-cli/issues"
+  },
+  "homepage": "https://github.com/gabrielmedeirossouza/ddg-manifest-cli#readme"
 }
