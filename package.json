@@ -21,7 +21,7 @@
     "inquirer": "^7.3.3"
   },
   "bin": {
-    "gs": "./index.js"
+    "ddggm": "./index.js"
   },
   "repository": {
     "type": "git",

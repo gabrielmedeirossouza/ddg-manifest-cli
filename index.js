@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import fs from 'fs'
 import archiver from 'archiver'
 import CLI from 'clui'
